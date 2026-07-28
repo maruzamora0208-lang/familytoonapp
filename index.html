@@ -1,27 +1,244 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
+<!--<head><title>Familytoon App at Apple Store</title></head>-->
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Create personalized family cartoons and download high-quality transparent PNG images with Familytoon." />
+  <meta name="theme-color" content="#6c4cf1" />
 
-    <title>Familytoon App at Apple Store</title>
+  <meta property="og:title" content="Familytoon — Create Your Family as Cartoons" />
+  <meta property="og:description" content="Design personalized family characters and download your creation as a transparent PNG." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://familytoonapp.com/" />
+  <meta property="og:image" content="https://familytoonapp.com/assets/social-preview.svg" />
 
+  <title>Familytoon — Create Your Family as Cartoons</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Familytoon home">
+        <img src="assets/logo-mark.svg" alt="" width="44" height="44" />
+        <span>Familytoon</span>
+      </a>
 
-<h1>Familytoon</h1>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Open navigation</span>
+        <span></span><span></span><span></span>
+      </button>
 
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#gallery">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a class="nav-download" href="#download"> Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">PERSONALIZED FAMILY ART</p>
+          <h1>Create Your Family as <span>Cartoons</span></h1>
+          <p class="hero-text">
+            Design thousands of personalized family characters. Mix hairstyles, faces,
+            clothing, accessories, and more. Download your finished artwork as a
+            high-quality transparent PNG.
+          </p>
+
+          <a class="app-store-badge" href="#" aria-label="Download Familytoon on the App Store">
+            <span class="apple"></span>
+            <span>
+              <small>Download on the</small>
+              <strong>App Store</strong>
+            </span>
+          </a>
+
+          <p class="purchase-note"><span>♥</span> One-time purchase. No subscriptions.</p>
+
+            <!--<h1>Familytoon</h1>
 <p>Create unlimited custom family cartoon PNGs for gifts, crafts, and print-on-demand projects - Pay once, no subscriptions.</p>
-
 <p>Seasonal free updates before major holidays: Halloween, Thanksgiving, Christmas, Valentine's Day, Mother's Day, Father's Day, Graduation, Back to School</p>
+<a href="#">Download on the App Store</a>-->
+        </div>
 
-<a href="#">
+        <div class="hero-visual" aria-label="Familytoon app previews">
+          <div class="blob blob-one"></div>
+          <div class="blob blob-two"></div>
+          <span class="spark spark-one">✦</span>
+          <span class="spark spark-two">★</span>
+          <span class="heart">♥</span>
 
-Download on the App Store
+          <div class="phone phone-left">
+            <div class="phone-screen">
+              <div class="status-bar"><span>9:41</span><span>● ● ●</span></div>
+              <div class="screen-title">Design Your<br />Characters</div>
+              <div class="character-pair">
+                <div class="avatar man">
+                  <span class="hair"></span><span class="face"></span><span class="body"></span>
+                </div>
+                <div class="avatar woman">
+                  <span class="hair"></span><span class="face"></span><span class="body"></span>
+                </div>
+              </div>
+              <div class="category-row">
+                <span class="active">Hair</span><span>Face</span><span>Eyes</span><span>Clothes</span>
+              </div>
+              <div class="swatches">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+            </div>
+          </div>
 
-</a>
+          <div class="phone phone-right">
+            <div class="phone-screen">
+              <div class="status-bar"><span>9:41</span><span>● ● ●</span></div>
+              <div class="screen-title">Your Family<br />Masterpiece</div>
+              <div class="family-card">
+                <img src="assets/family-1.svg" alt="Familytoon family illustration" />
+              </div>
+              <div class="phone-actions">
+                <span>Save PNG</span><span>Share</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="features" class="feature-section">
+      <div class="container feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">♟</div>
+          <h2>Thousands of Combinations</h2>
+          <p>Mix faces, hairstyles, bodies, and outfits to create your perfect character.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">👕</div>
+          <h2>Fully Customizable</h2>
+          <p>Adjust every detail, from hairstyles and expressions to clothes and accessories.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">👨‍👩‍👧</div>
+          <h2>Families of Any Size</h2>
+          <p>Create couples, children, large families, and even pets.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">🖼️</div>
+          <h2>High-Quality PNG</h2>
+          <p>Download sharp, high-resolution artwork with a transparent background.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">🖨️</div>
+          <h2>Print Anything</h2>
+          <p>Use your artwork on shirts, mugs, posters, cards, invitations, and more.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">♥</div>
+          <h2>Made with Love</h2>
+          <p>Designed for families who love creativity, personalization, and memories.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">YOUR FAMILY, YOUR STYLE</p>
+          <h2>See What You Can Create</h2>
+          <p>Every family is unique. Make yours one of a kind.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure><img src="assets/family-1.svg" alt="Family with parents and three children" /></figure>
+          <figure><img src="assets/family-2.svg" alt="Parents with baby and dog" /></figure>
+          <figure><img src="assets/family-3.svg" alt="Large multigenerational family" /></figure>
+          <figure><img src="assets/family-4.svg" alt="Two parents with child and cat" /></figure>
+          <figure><img src="assets/family-5.svg" alt="Family with three children and dog" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="download-section">
+      <div class="container download-card">
+        <div class="download-phone">
+          <div class="mini-app-card">
+            <img src="assets/logo-mark.svg" alt="" />
+            <div>
+              <strong>Familytoon</strong>
+              <small>Create Family Cartoons</small>
+            </div>
+            <span>GET</span>
+          </div>
+        </div>
+
+        <div class="download-copy">
+          <h2>Download Familytoon Today!</h2>
+          <p>Start creating beautiful family cartoons in minutes. One-time purchase. Yours forever.</p>
+          <a class="app-store-badge" href="#" aria-label="Download Familytoon on the App Store">
+            <span class="apple"></span>
+            <span>
+              <small>Download on the</small>
+              <strong>App Store</strong>
+            </span>
+          </a>
+        </div>
+
+        <div class="download-arrow" aria-hidden="true">↪</div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <div class="container info-grid">
+        <article>
+          <div class="info-title"><span>?</span><h2>FAQ</h2></div>
+          <h3>Is Familytoon free to use?</h3>
+          <p>No. It is a one-time purchase with no subscriptions.</p>
+          <h3>Can I download my artwork?</h3>
+          <p>Yes. You can download high-quality transparent PNG images.</p>
+          <a href="faq.html">View all FAQs →</a>
+        </article>
+
+        <article>
+          <div class="info-title"><span>✉</span><h2>Support</h2></div>
+          <p>We’re here to help! For questions, issues, or suggestions, contact us.</p>
+          <a href="mailto:support@familytoonapp.com">support@familytoonapp.com</a>
+          <p>We usually respond within 24–48 hours.</p>
+          <a href="support.html">Visit support →</a>
+        </article>
+
+        <article>
+          <div class="info-title"><span>◈</span><h2>Privacy</h2></div>
+          <p>Your privacy is important to us. Familytoon does not sell your information.</p>
+          <a href="privacy.html">Read our Privacy Policy →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Familytoon. All rights reserved.</p>
+      <div>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+      </div>
+    </div>
+  </footer>
 </body>
-
 </html>
